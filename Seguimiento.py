@@ -9,10 +9,10 @@ import matplotlib.dates as mdates
 
 connectionBD = mysql.connector.connect(
 
-    host="162.241.203.102",
-    user="likezoom_yann",
-    password="kdzCTwvYh4YBTBk",
-    database="likezoom_prueba"
+    host="******",
+    user="******",
+    password="******",
+    database="******"
 )
 
 cursor = connectionBD.cursor()
@@ -49,7 +49,7 @@ if Cn == 1 :
 elif Cn == 2:
         
      #Name table
-    TablaO = "Gastos"
+    TablaO = "******"
 
     cursor.execute(f"SELECT COUNT(*) FROM {TablaO}")
     num_rows = cursor.fetchone()[0]
